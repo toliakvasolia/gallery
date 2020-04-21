@@ -1,0 +1,79 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body,
+main {
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container1 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.text-tourism {
+    text-align: center;
+    padding-top: 45px;
+    color: rgb(242, 249, 255);
+    font-size: 20px;
+}
+
+.text-container {
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 40%;
+}
+
+.text1 {
+    color: rgb(161, 161, 161);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.text3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gallery-test {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galleru-text1 {}
+
+.galleru-text2 {}
+
+.img-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
